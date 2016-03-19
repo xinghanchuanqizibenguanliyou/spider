@@ -8,7 +8,7 @@ if config.MYSQL:
 @asyncio.coroutine
 def processData(data):
     '''
-    data is from the http response in main module.
+    data is from the http response in main module. normally it is just string with html format.
     '''
     
     pass
